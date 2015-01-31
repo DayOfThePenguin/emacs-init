@@ -1,0 +1,3 @@
+* Tasks
+** TODO set up mode-specific script so the only thing I need to do is (load-library "modes")
+** TODO set up global wrap mode

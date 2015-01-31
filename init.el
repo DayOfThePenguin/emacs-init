@@ -20,9 +20,10 @@
   (add-path ".emacs.d/net") ; useful lisp found on the interwebs
   )
 
-(load-library "keys") ; personal keybindings in
+(load-library "keys") ; personal keybindings
 (load-library "lush-theme") ; sets my favorite theme
-(load-library "customizations") ; global customizations to emacs
+(load-library "customizations") ; global customizations
+(load-library "org-customizations") ; org mode customizations
 (load-library "fill-column-indicator")
 (load-library "smart-tabs-mode")
 
