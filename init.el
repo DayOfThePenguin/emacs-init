@@ -48,3 +48,9 @@
 (smart-tabs-insinuate 'c 'c++ 'java 'javascript 'cperl 'python 'ruby 'nxml)
 ;; languages to use smart-tab-mode for
 
+;; hopfully fixes python indent problems...seems to be working
+(add-hook 'python-mode-hook
+	  (lambda ()
+	    (setq tab-width 4)
+	    (fci-mode 1)
+	            (setq python-indent 4)))
